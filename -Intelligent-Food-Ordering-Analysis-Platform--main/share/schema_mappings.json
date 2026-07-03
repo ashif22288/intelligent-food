@@ -1,0 +1,43 @@
+{
+    "local2": {
+        "database_info": {
+            "db_name": "local2",
+            "user": "sqluser",
+            "password": "password",
+            "ip": "127.0.0.1"
+        },
+        "database_mapping_global_schema": {
+            "table_mappings": {
+                "Restaurant": "restaurant",
+                "Dishes": "dishes"
+            },
+            "column_mappings": {
+                "Restaurant": {
+                    "Restaurant_id": "restaurant_id",
+                    "Name": "restaurant_name",
+                    "Address": "restaurant_address",
+                    "City": "city",
+                    "Zip": null,
+                    "Rating": "average_rating",
+                    "availability": "is_available"
+                },
+                "Dishes": {
+                    "dish_id": "dish_id",
+                    "Dishname": "dish_name",
+                    "price": "dish_price",
+                    "restaurant_id": "associated_restaurant_id",
+                    "rating": "dish_rating",
+                    "availability": "is_available",
+                    "about": null
+                }
+            },
+            "foreign_keys": {
+                "Dishes": {
+                    "restaurant_id": "associated_restaurant_id"
+                }
+            }
+        }
+        
+        
+    }
+}

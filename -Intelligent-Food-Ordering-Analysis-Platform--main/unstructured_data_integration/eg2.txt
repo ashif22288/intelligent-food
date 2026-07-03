@@ -1,0 +1,26 @@
+As a restaurant owner, I am excited to add my restaurant and its delicious dishes to the global_schema database. This document will guide me through the process of submitting the necessary information.
+
+My Restaurant Details
+Restaurant Information
+Name: The Spice House
+Address: 456 Flavor St
+City: Mumbai
+Zip Code: 67890
+Rating : 4.5
+Availability: Yes
+Dishes Offered
+Dish Information
+For each dish, I will provide the following details:
+
+Dish Name: Spicy Curry
+Price: $15
+Rating : 4.7
+Availability: Yes
+Dish Name: Grilled Salmon
+Price: $20
+Rating : 4.9
+Availability: Yes
+Dish Name: Vegan Buddha Bowl
+Price: $12
+Rating : 4.8
+Availability: Yes

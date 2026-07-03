@@ -1,0 +1,80 @@
+{
+    "adityatest": {
+        "database_info": {
+            "db_name": "adityatest",
+            "user": "aditya",
+            "password": "12345678",
+            "ip": "192.168.45.182"
+        },
+        "database_mapping_global_schema": {
+            "table_mappings": {
+                "Restaurant": "restaurant",
+                "Dishes": "dishes"
+            },
+            "column_mappings": {
+                "Restaurant": {
+                    "Restaurant_id": "restaurant_id",
+                    "Name": "restaurant_name",
+                    "Address": "restaurant_address",
+                    "City": "city",
+                    "Zip": null,
+                    "Rating": "average_rating",
+                    "availability": "is_available"
+                },
+                "Dishes": {
+                    "dish_id": "dish_id",
+                    "Dishname": "dish_name",
+                    "price": "dish_price",
+                    "restaurant_id": "associated_restaurant_id",
+                    "rating": "dish_rating",
+                    "availability": "is_available",
+                    "about": "description"
+                }
+            },
+            "foreign_keys": {
+                "Dishes": {
+                    "restaurant_id": "restaurant.restaurant_id"
+                }
+            }
+        }
+    },
+    "adiglobal_schema": {
+        "database_info": {
+            "db_name": "adiglobal_schema",
+            "user": "aditya",
+            "password": "12345678",
+            "ip": "192.168.45.182"
+        },
+        "database_mapping_global_schema": {
+            "table_mappings": {
+                "Restaurant": "restaurant",
+                "Dishes": "dishes"
+            },
+            "column_mappings": {
+                "Restaurant": {
+                    "Restaurant_id": "Restaurant_id",
+                    "Name": "Name",
+                    "Address": "Address",
+                    "City": "City",
+                    "Zip": "Zip",
+                    "Rating": "Rating",
+                    "availability": "availability"
+                },
+                "Dishes": {
+                    "dish_id": "dish_id",
+                    "Dishname": "Dishname",
+                    "price": "price",
+                    "restaurant_id": "restaurant_id",
+                    "rating": "rating",
+                    "availability": "availability",
+                    "about": "about"
+                }
+            },
+            "foreign_keys": {
+                "Dishes": {
+                    "restaurant_id": "restaurant.Restaurant_id"
+                }
+            }
+        }
+    }
+}
