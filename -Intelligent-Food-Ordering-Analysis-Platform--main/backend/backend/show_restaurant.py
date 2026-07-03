@@ -39,7 +39,7 @@ def get_similar_restaurants(restaurant_name):
     Retrieves a list of similar restaurant names based on the input.
     """
     try:
-        with open(r'C:\Users\WASIF\OneDrive\Desktop\IIA\backend\backend\curr_restaurant_name.json', "r") as f:
+        with open(r'C:\Users\Md Ashif\OneDrive\Desktop\IIA\backend\backend\curr_restaurant_name.json', "r") as f:
             restaurant_names = json.load(f)
 
         # Match similar restaurant names

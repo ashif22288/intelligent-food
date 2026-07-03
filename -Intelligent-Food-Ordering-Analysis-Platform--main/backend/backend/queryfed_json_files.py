@@ -22,9 +22,9 @@ def save_dict(data, filename):
 
 
 # Initialize dictionaries
-food_dict = load_dict(r'C:\Users\WASIF\OneDrive\Desktop\IIA\backend\backend\curr_dish_titles.json')
-city_dict = load_dict(r'C:\Users\WASIF\OneDrive\Desktop\IIA\backend\backend\curr_city_name.json')
-restaurant_dict = load_dict(r'C:\Users\WASIF\OneDrive\Desktop\IIA\backend\backend\curr_restaurant_name.json')
+food_dict = load_dict(r'C:\Users\Md Ashif\OneDrive\Desktop\IIA\backend\backend\curr_dish_titles.json')
+city_dict = load_dict(r'C:\Users\Md Ashif\OneDrive\Desktop\IIA\backend\backend\curr_city_name.json')
+restaurant_dict = load_dict(r'C:\Users\Md Ashif\OneDrive\Desktop\IIA\backend\backend\curr_restaurant_name.json')
 
 # Database connection setup
 def get_db_connection():
@@ -101,9 +101,9 @@ def process_data():
 process_data()
 
 # Save the updated dictionaries back to JSON files
-save_dict(food_dict, r'C:\Users\WASIF\OneDrive\Desktop\IIA\backend\backend\curr_dish_titles.json')
-save_dict(city_dict, r'C:\Users\WASIF\OneDrive\Desktop\IIA\backend\backend\curr_city_name.json')
-save_dict(restaurant_dict, r'C:\Users\WASIF\OneDrive\Desktop\IIA\backend\backend\curr_restaurant_name.json')
+save_dict(food_dict, r'C:\Users\Md Ashif\OneDrive\Desktop\IIA\backend\backend\curr_dish_titles.json')
+save_dict(city_dict, r'C:\Users\Md Ashif\OneDrive\Desktop\IIA\backend\backend\curr_city_name.json')
+save_dict(restaurant_dict, r'C:\Users\Md Ashif\OneDrive\Desktop\IIA\backend\backend\curr_restaurant_name.json')
 
 # # Print the updated dictionaries
 # print("Updated food dictionary:")

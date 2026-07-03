@@ -75,7 +75,7 @@ def fetch_sql_data():
 def main():
     # Read the Excel-like dataset from a CSV file
     try:
-        df_excel = pd.read_csv(r"C:\Users\WASIF\Downloads\laptops.csv", encoding='latin1', engine='python')
+        df_excel = pd.read_csv(r"C:\Users\Md Ashif\Downloads\laptops.csv", encoding='latin1', engine='python')
     except FileNotFoundError:
         print("Error: The file 'laptop.csv' was not found. Please provide the correct file path.")
         return

@@ -54,34 +54,44 @@ Key features of the project:
 
 To set up the project locally, follow these steps:
 
-1. **Clone the Repository**:
-   bash
-   git clone https://github.com/aditya22041/InformationIntegrationProject-IIA-.git
-   cd InformationIntegrationProject-IIA-
-   
+1. **Clone the Repository**
 
-2. **Install Dependencies**:
-   bash
-   pip install -r requirements.txt
-   
+```bash
+git clone https://github.com/ashif22288/intelligent-food.git
+cd intelligent-food
+```
 
-3. **Run the Scripts**:
-   - Extract data:
-     bash
-     python scripts/data_extraction.py
-     
-   - Clean and transform data:
-     bash
-     python scripts/data_cleaning.py
-     
-   - Analyze data:
-     bash
-     python scripts/data_analysis.py
-     
-   - Generate visualizations:
-     bash
-     python scripts/visualization.py
-     
+2. **Install Dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the Scripts**
+
+**Extract data**
+
+```bash
+python scripts/data_extraction.py
+```
+
+**Clean and transform data**
+
+```bash
+python scripts/data_cleaning.py
+```
+
+**Analyze data**
+
+```bash
+python scripts/data_analysis.py
+```
+
+**Generate visualizations**
+
+```bash
+python scripts/visualization.py
+```
 
 ---
 
@@ -104,9 +114,7 @@ To set up the project locally, follow these steps:
 
 ## Contributors
 
-1. Md Ashif [@ashif22288](https://github.com/ashif22288)
-2. Aditya Yadav [@aditya22041](https://github.com/aditya22041)
-3. Aastha Singh [@aastha1708](https://github.com/aastha1708)
+1. Md Ashif <ashif22288@iiitd.ac.in>
 
 ---
 
@@ -116,7 +124,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-For any questions or issues, please contact the repository owner: [WASIF](https://github.com/A-WASIF).
+For any questions or issues, please contact Md Ashif at ashif22288@iiitd.ac.in.
 
 
 ---
